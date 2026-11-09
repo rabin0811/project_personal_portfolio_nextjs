@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #111111;
+  --color-paper: #fafafa;
+  --color-signal: #dc2626;
+  --color-mute: #4b5563;
+  --color-line: #e5e7eb;
+
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, "Cascadia Code", "Fira Code", monospace;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* ---- signature motif: bracket/dashed section markers ---- */
+.bracket {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-signal);
+  user-select: none;
+}
+.bracket .bracket-before,
+.bracket .bracket-after {
+  color: var(--color-mute);
+}
+
+/* dashed rule that pairs with [ section ] headers */
+.rule-dashed {
+  border-top: 1px dashed var(--color-line);
+}
+
+/* terminal cursor blink */
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.cursor-blink::after {
+  content: "▊";
+  color: var(--color-signal);
+  animation: blink 1.1s steps(1) infinite;
+}
+
+/* focus visibility */
+:focus-visible {
+  outline: 2px solid var(--color-signal);
+  outline-offset: 2px;
+}
+
+/* lightbox scroll lock */
+body.locked {
+  overflow: hidden;
+}

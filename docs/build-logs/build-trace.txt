@@ -1,0 +1,92 @@
+﻿
+> rabin-humagain-portfolio@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.5.23
+   - Environments: .env
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully in 35.9s
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+node.exe : NFT-WILDCARD-REQUIRE: ./chunks/
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (NFT-WILDCARD-REQUIRE: ./chunks/:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+NFT-WILDCARD-REQUIRE: 
+NFT-WILDCARD-REQUIRE: \server\
+NFT-WILDCARD-REQUIRE: \server\middleware.js
+NFT-WILDCARD-REQUIRE: 
+NFT-WILDCARD-REQUIRE: 
+   Generating static pages (0/16) ...
+   Generating static pages (4/16) 
+   Generating static pages (8/16) 
+   Generating static pages (12/16) 
+ Γ£ô Generating static pages (16/16)
+   Finalizing page optimization ...
+   Collecting build traces ...
+NFT-WILDCARD-REQUIRE: @img/sharp-/versions
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-/versions
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-/package
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-dev-/include
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-dev-/lib
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-/lib
+
+Route (app)                                  Size  First Load JS
+Γöî ╞Æ /                                       181 B         106 kB
+Γö£ Γùï /_not-found                             187 B         103 kB
+Γö£ ╞Æ /about                                  164 B         106 kB
+Γö£ ╞Æ /admin                                  181 B         106 kB
+Γö£ ╞Æ /admin/blog                           1.13 kB         107 kB
+Γö£ ╞Æ /admin/blog/[id]                        128 B         109 kB
+Γö£ ╞Æ /admin/blog/new                         128 B         109 kB
+Γö£ ╞Æ /admin/gallery                        2.09 kB         108 kB
+Γö£ ╞Æ /admin/login                          1.03 kB         107 kB
+Γö£ ╞Æ /admin/messages                       1.01 kB         107 kB
+Γö£ ╞Æ /admin/projects                       1.44 kB         107 kB
+Γö£ ╞Æ /admin/projects/[id]                   2.8 kB         109 kB
+Γö£ ╞Æ /admin/projects/new                    2.8 kB         109 kB
+Γö£ ╞Æ /admin/settings                       2.13 kB         108 kB
+Γö£ ╞Æ /admin/skills                         2.38 kB         108 kB
+Γö£ ╞Æ /api/admin/blog                         187 B         103 kB
+Γö£ ╞Æ /api/admin/blog/[id]                    187 B         103 kB
+Γö£ ╞Æ /api/admin/experiences                  187 B         103 kB
+Γö£ ╞Æ /api/admin/experiences/[id]             187 B         103 kB
+Γö£ ╞Æ /api/admin/gallery                      187 B         103 kB
+Γö£ ╞Æ /api/admin/gallery/[id]                 187 B         103 kB
+Γö£ ╞Æ /api/admin/messages                     187 B         103 kB
+Γö£ ╞Æ /api/admin/messages/[id]                187 B         103 kB
+Γö£ ╞Æ /api/admin/projects                     187 B         103 kB
+Γö£ ╞Æ /api/admin/projects/[id]                187 B         103 kB
+Γö£ ╞Æ /api/admin/projects/screenshots/[id]    187 B         103 kB
+Γö£ ╞Æ /api/admin/settings                     187 B         103 kB
+Γö£ ╞Æ /api/admin/skills                       187 B         103 kB
+Γö£ ╞Æ /api/admin/skills/[id]                  187 B         103 kB
+Γö£ ╞Æ /api/admin/uploads                      187 B         103 kB
+Γö£ ╞Æ /api/auth/login                         187 B         103 kB
+Γö£ ╞Æ /api/auth/logout                        187 B         103 kB
+Γö£ ╞Æ /api/contact                            187 B         103 kB
+Γö£ ╞Æ /blog                                   181 B         106 kB
+Γö£ ╞Æ /blog/[slug]                            181 B         106 kB
+Γö£ ╞Æ /cdn/[...key]                           187 B         103 kB
+Γö£ ╞Æ /contact                              1.48 kB         107 kB
+Γö£ ╞Æ /gallery                              1.71 kB         108 kB
+Γö£ Γùï /robots.txt                             187 B         103 kB
+Γö£ ╞Æ /sitemap.xml                            187 B         103 kB
+Γö£ ╞Æ /work                                 1.34 kB         107 kB
+Γöö ╞Æ /work/[slug]                            181 B         106 kB
++ First Load JS shared by all              103 kB
+  Γö£ chunks/1255-a20f6c5e797a687b.js       46.4 kB
+  Γö£ chunks/4bd1b696-f785427dddbba9fb.js   54.2 kB
+  Γöö other shared chunks (total)              2 kB
+
+
+╞Æ Middleware                              39.2 kB
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

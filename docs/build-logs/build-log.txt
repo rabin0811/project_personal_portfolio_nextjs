@@ -1,0 +1,22 @@
+﻿   Γû▓ Next.js 15.5.23
+   - Environments: .env
+
+   Creating an optimized production build ...
+node.exe : glob error [Error: EPERM: operation not permitted, scandir 'C:\Users\Lenovo\Application Data'] {
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (glob error [Err...cation Data'] {:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'scandir',
+  path: 'C:\\Users\\Lenovo\\Application Data'
+}
+Failed to compile.
+
+Error: EPERM: operation not permitted, scandir 'C:\Users\Lenovo\Application Data'
+
+
+> Build failed because of webpack errors

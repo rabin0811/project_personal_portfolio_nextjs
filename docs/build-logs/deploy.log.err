@@ -1,0 +1,46 @@
+WARN OpenNext is not fully compatible with Windows.
+WARN For optimal performance, it is recommended to use Windows Subsystem for Linux (WSL).
+WARN While OpenNext may function on Windows, it could encounter unpredictable failures during runtime.
+NFT-WILDCARD-REQUIRE: ./chunks/
+NFT-WILDCARD-REQUIRE: 
+NFT-WILDCARD-REQUIRE: \server\
+NFT-WILDCARD-REQUIRE: \server\middleware.js
+NFT-WILDCARD-REQUIRE: 
+NFT-WILDCARD-REQUIRE: 
+NFT-WILDCARD-REQUIRE: /next-swc..node
+NFT-WILDCARD-REQUIRE: @next/swc/native/next-swc..node
+NFT-WILDCARD-REQUIRE: /package.json
+NFT-WILDCARD-REQUIRE: /package.json
+NFT-WILDCARD-REQUIRE: caniuse-lite/data/regions/.js
+NFT-WILDCARD-REQUIRE: caniuse-lite/data/features/.js
+NFT-WILDCARD-REQUIRE: @img/sharp-/versions
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-/versions
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-/package
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-dev-/include
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-dev-/lib
+NFT-WILDCARD-REQUIRE: @img/sharp-libvips-/lib
+NFT-WILDCARD-REQUIRE: /package.json
+NFT-WILDCARD-REQUIRE: regenerate-unicode-properties/.js
+NFT-WILDCARD-REQUIRE: ./
+NFT-WILDCARD-REQUIRE: ./
+WARN OpenNext is not fully compatible with Windows.
+WARN For optimal performance, it is recommended to use Windows Subsystem for Linux (WSL).
+WARN While OpenNext may function on Windows, it could encounter unpredictable failures during runtime.
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "C:\Users\Lenovo\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-08-09_11-42-16_975.log"
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 94
+ERROR Wrangler deploy command failed:
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "C:\Users\Lenovo\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-08-09_11-42-16_975.log"
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 94
+

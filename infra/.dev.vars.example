@@ -1,0 +1,5 @@
+# Copy to .dev.vars — used by `next dev` / `wrangler dev` (bindings for local dev)
+SITE_URL=http://localhost:3000
+AUTH_SECRET=generate-a-long-random-string
+RESEND_API_KEY=
+RESEND_FROM=Portfolio <onboarding@resend.dev>
